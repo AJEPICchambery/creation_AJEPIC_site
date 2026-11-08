@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Inscrivez-vous à un événement de l’AJEPIC. Envoyez vos coordonnées et recevez une réponse de l’association par email." name="description"/>
+  <title>
+   Inscription à un événement — AJEPIC Chambéry
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link rel="icon" type="image/jpeg" href="assets/logo-ajepic.jpeg"/>
+ </head>
+ <body>
+  <header>
+   <a aria-label="AJEPIC accueil" class="brand" href="index.html">
+    <img alt="AJEPIC — Association des Jeunes Étudiants et Professionnels Ivoiriens de Chambéry" class="official-logo" src="assets/logo-ajepic.jpeg"/>
+   </a>
+   <nav aria-label="Navigation principale" class="page-nav" id="nav">
+    <a href="index.html">
+     Qui sommes-nous ?
+    </a>
+    <a href="actions.html">
+     Nos actions
+    </a>
+    <a href="soutenir.html">
+     Nous soutenir
+    </a>
+    <a href="actualites.html">
+     Nos actualités
+    </a>
+    <a href="adherer.html">
+     Nous rejoindre
+    </a>
+   </nav>
+   <button aria-expanded="false" aria-label="Ouvrir le menu" class="menu">
+    ☰
+   </button>
+  </header>
+  <main class="page-content">
+   <section class="page-heading">
+    <div class="breadcrumb">
+     <a href="actualites.html">
+      Nos actualités
+     </a>
+     / Inscription
+    </div>
+    <div class="eyebrow">
+     Participer à un événement
+    </div>
+    <h1>
+     Votre demande d’inscription
+    </h1>
+    <h2 id="registration-event-title">
+     L’événement choisi
+    </h2>
+    <p id="registration-event-info">
+     Retrouvez le rendez-vous sélectionné dans Nos actualités.
+    </p>
+   </section>
+   <section class="section registration-section">
+    <a class="registration-back" href="actualites.html">
+     ← Retour aux événements
+    </a>
+    <form action="https://formsubmit.co/assivoirienschambery@gmail.com" id="event-registration" method="POST">
+     <input name="Evenement" type="hidden" value=""/>
+     <input name="Date_evenement" type="hidden" value=""/>
+     <input name="_subject" type="hidden" value="AJEPIC - Demande d’inscription"/>
+     <input name="_template" type="hidden" value="table"/>
+     <input name="_next" type="hidden" value=""/>
+     <input name="_url" type="hidden" value=""/>
+     <input name="_autoresponse" type="hidden" value="Bonjour, votre demande d’inscription a été transmise à l’AJEPIC. L’association vous répondra par email pour confirmer votre participation et préciser les modalités. Ce message automatique ne vaut pas confirmation de votre inscription. Merci et à bientôt."/>
+     <div aria-hidden="true" class="registration-honey">
+      <label>
+       Ne pas remplir ce champ
+       <input autocomplete="off" name="_honey" tabindex="-1" type="text"/>
+      </label>
+     </div>
+     <h2>
+      Vos coordonnées
+     </h2>
+     <p>
+      Tous les champs sont obligatoires. L’association vous répondra à l’adresse email indiquée.
+     </p>
+     <div class="registration-fields">
+      <div class="registration-field">
+       <label for="registration-lastname">
+        Nom
+       </label>
+       <input autocomplete="family-name" id="registration-lastname" maxlength="100" name="Nom" required=""/>
+      </div>
+      <div class="registration-field">
+       <label for="registration-firstname">
+        Prénoms
+       </label>
+       <input autocomplete="given-name" id="registration-firstname" maxlength="150" name="Prenoms" required=""/>
+      </div>
+      <div class="registration-field registration-wide">
+       <label for="registration-job">
+        Situation professionnelle
+       </label>
+       <select id="registration-job" name="Situation_professionnelle" required="">
+        <option value="">
+         Sélectionnez votre situation
+        </option>
+        <option>
+         Étudiant ou étudiante
+        </option>
+        <option>
+         Salarié ou salariée
+        </option>
+        <option>
+         Entrepreneur ou indépendant
+        </option>
+        <option>
+         En recherche d’emploi
+        </option>
+        <option>
+         Retraité ou retraitée
+        </option>
+        <option>
+         Autre situation
+        </option>
+       </select>
+      </div>
+      <div class="registration-field">
+       <label for="registration-contact">
+        Contact téléphonique
+       </label>
+       <input autocomplete="tel" id="registration-contact" maxlength="40" name="Contact" required="" type="tel"/>
+      </div>
+      <div class="registration-field">
+       <label for="registration-email">
+        Email
+       </label>
+       <input autocomplete="email" id="registration-email" maxlength="254" name="email" required="" type="email"/>
+      </div>
+     </div>
+     <p class="registration-privacy">
+      Ces informations sont transmises à l’AJEPIC via FormSubmit afin de traiter votre inscription et de vous répondre par mail. Pour toute question, écrivez à
+      <a href="mailto:assivoirienschambery@gmail.com">
+       assivoirienschambery@gmail.com
+      </a>
+      .
+     </p>
+     <button class="btn orange" type="submit">
+      Soumettre ma demande
+     </button>
+     <p class="registration-note">
+      Votre participation sera confirmée par l’association. Une demande ne constitue pas une réservation confirmée.
+     </p>
+     <noscript>
+      <p>
+       Activez JavaScript pour sélectionner l’événement et envoyer ce formulaire, ou contactez l’association par email.
+      </p>
+     </noscript>
+    </form>
+   </section>
+  </main>
+  <footer>
+   <div>
+    <a class="brand" href="index.html">
+     <img alt="AJEPIC — Association des Jeunes Étudiants et Professionnels Ivoiriens de Chambéry" class="official-logo" src="assets/logo-ajepic.jpeg"/>
+    </a>
+    <p>
+     Des rencontres, des cultures, des opportunités pour tous.
+    </p>
+   </div>
+   <div>
+    Chambéry, Savoie · France
+    <br/>
+    <p>
+     <a href="mailto:assivoirienschambery@gmail.com">
+      assivoirienschambery@gmail.com
+     </a>
+     <br/>
+     <br/>
+     © 2026 AJEPIC
+    </p>
+   </div>
+   <button class="filter" id="privacy">
+    À propos de ce site
+   </button>
+   <div class="page-footer-links">
+    <a href="index.html">
+     Qui sommes-nous ?
+    </a>
+    <a href="actions.html">
+     Nos actions
+    </a>
+    <a href="soutenir.html">
+     Nous soutenir
+    </a>
+    <a href="actualites.html">
+     Nos actualités
+    </a>
+    <a href="adherer.html">
+     Nous rejoindre
+    </a>
+    <a href="contact.html">
+     Nous contacter
+    </a>
+   </div>
+  </footer>
+  <dialog id="detail">
+   <button aria-label="Fermer" class="close">
+    ×
+   </button>
+   <div class="dialogbody">
+   </div>
+  </dialog>
+  <script src="script.js">
+  </script>
+ </body>
+</html>

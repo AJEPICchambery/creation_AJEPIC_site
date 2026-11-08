@@ -1,0 +1,10 @@
+AJEPIC — Code source complet
+Version du 6 novembre 2026
+
+Contenu : pages HTML, style.css, script.js, images, vidéos et formulaires PDF.
+Cette version comprend l’affiche de décembre dans le diaporama « Nous rejoindre » et le défilement toutes les 4 secondes.
+
+Utilisation : décompressez le ZIP, puis ouvrez index.html.
+Pour publier sur un hébergement statique, déposez tout le contenu du dossier AJEPIC à la racine de votre site. Aucun outil de compilation n’est nécessaire.
+
+Les formulaires et liens de contact conservent leur fonctionnement actuel.
