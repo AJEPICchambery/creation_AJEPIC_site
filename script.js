@@ -708,14 +708,14 @@ const initiativesData = [
   {
     title: 'Des vêtements chauds pour l’hiver',
     tag: 'Solidarité',
-    date: 'Collecte : 10 novembre 2026',
-    image: 'assets/collecte-vetements-hiver.jpeg',
+    date: 'Collecte : du 10 au 25 novembre 2026',
+    image: 'assets/collecte-vetements-hiver_up.jpeg',
     summary:
-      'Collecte de vêtements d’hiver le 10 novembre 2026, ' +
+      'Collecte de vêtements d’hiver du 10 au 25 novembre 2026, ' +
       'avant la distribution prévue en décembre.',
     detail:
       'Donnez une seconde vie à vos vêtements d’hiver ! ' +
-      'La collecte aura lieu le 10 novembre 2026. ' +
+      'La collecte aura lieu du 10 au 25 novembre 2026. ' +
       'Premier point de collecte : MJC de Chambéry, 311 faubourg Montmélian, ' +
       '73000 Chambéry.' + ' Un deuxième point de collecte : Maison des associations de Chambéry 67 Rue Saint-François de Sales, 73000 Chambéry. ' +
       'La distribution de vêtements chauds reste prévue en décembre 2026, ' +
