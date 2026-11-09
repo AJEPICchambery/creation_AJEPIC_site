@@ -104,14 +104,14 @@ if (document.querySelector('.partners')) {
 
 const events = [
   {
-    day: '11',
-    month: 'NOV. 2026',
+    day: '',
+    month: '',
     title: 'Un moment sportif ensemble',
     cat: 'sport',
     label: 'Sport',
-    place: 'Lieu à confirmer',
+    place: 'Lieu et date à confirmer',
     detail:
-      'Une activité sportive est prévue le mercredi 11 novembre 2026. ' +
+      'Une activité sportive est prévue dans les prochains jours. ' +
       'Le lieu, les horaires et les modalités de participation restent à confirmer.'
   },
   {
@@ -128,26 +128,27 @@ const events = [
       'Rapprochez-vous du bureau de l’association pour les billets.'
   },
   {
-    day: '25',
-    month: 'DÉC. 2026',
+    day: '',
+    month: '',
     title: 'Noël en Asso',
     cat: 'culture',
     label: 'Convivialité',
-    place: 'Lieu et horaires à confirmer',
+    place: 'Lieu et date à confirmer',
     detail:
-      'Un rendez-vous pour partager la convivialité de Noël le vendredi ' +
-      '25 décembre 2026. Le programme, le lieu et les horaires seront précisés.'
+      'Un rendez-vous pour partager la convivialité de Noël ' +
+      '.Le programme, le lieu et les horaires seront précisés.'
   },
   {
-    day: '31',
-    month: 'DÉC. 2026',
+    day: '',
+    month: '',
     title: 'Passons le cap ensemble',
     cat: 'culture',
     label: 'Réveillon',
     place: 'Lieu et horaires à confirmer',
     detail:
       'Un réveillon associatif est prévu le jeudi 31 décembre 2026. ' +
-      'Les modalités seront communiquées après confirmation.'
+      'L’association refléchie à vous proposer un moment de rencontre' +
+      '.Les modalités seront communiquées après confirmation.'
   },
   {
     day: 'MAR',
@@ -161,25 +162,25 @@ const events = [
       'Les dates et les modalités de participation de l’association restent à confirmer.'
   },
   {
-    day: '01',
-    month: 'MAI 2027',
+    day: '',
+    month: 'MAR 2027',
     title: 'Une sortie, de nouvelles découvertes',
     cat: 'sport',
     label: 'Découverte',
     place: 'Destination et horaires à confirmer',
     detail:
-      'Une sortie découverte est prévue le samedi 1er mai 2027. ' +
+      'Une sortie découverte SKI est prévue dans le courant fin février et debut Mars. ' +
       'Destination, transport et modalités de participation seront précisés.'
   }
 ];
 
 const eventIllustrations = [
   'assets/moment_sportif_ensemble.png',
-  'assets/affiche-lagune-alpes.jpeg',
-  'assets/evenement-noel.svg',
+  'assets/affiche_up.jpeg',
+  'assets/Joyeux_Noel.png',
   'assets/evenement-reveillon.svg',
-  'assets/evenement-cultures.svg',
-  'assets/activite_decouverte_sortie_savoie.png'
+  'assets/tour-du-monde-pays-honneur.jpg',
+  'assets/image_ski.jpg'
 ];
 
 
@@ -321,7 +322,7 @@ function render(filter = 'all') {
         controls
         playsinline
         preload="metadata"
-        poster="assets/affiche-lagune-alpes.jpeg"
+        poster="assets/affiche_up.jpeg"
         aria-label="Teaser de la soirée De la lagune aux Alpes"
       >
         <source src="assets/teaser-lagune-alpes.mp4" type="video/mp4">
@@ -337,7 +338,7 @@ function render(filter = 'all') {
         aria-label="Voir l’affiche et les détails de la soirée De la lagune aux Alpes"
       >
         <img
-          src="assets/affiche-lagune-alpes.jpeg"
+          src="assets/affiche_up.jpeg"
           alt="Affiche de la soirée De la lagune aux Alpes, les 19 et 20 décembre 2026 à Chambéry"
         >
         <span>Voir l’affiche et les détails ↗</span>
@@ -374,9 +375,9 @@ function render(filter = 'all') {
 
         <a
           class="feature-contact"
-          href="mailto:assivoirienschambery@gmail.com?subject=Billets%20-%20De%20la%20lagune%20aux%20Alpes"
+          href="https://www.helloasso.com/associations/association-des-etudiants-ivoiriens-de-chambery/evenements/de-la-lagune-aux-alpes"
         >
-          Nous contacter pour les billets
+          Prendre son billet en ligne via Hello Asso
         </a>
       </div>
     </article>
@@ -465,11 +466,11 @@ if (eventsSection) {
         <div class="poster-layout">
           <div class="poster-visual">
             <img
-              src="assets/affiche-lagune-alpes.jpeg"
+              src="assets/affiche_up.jpeg"
               alt="Affiche de la soirée De la lagune aux Alpes, du 19 au 20 décembre à la salle La Bisseraine à Chambéry, dès 20 h. Standard 10 €."
             >
             <a
-              href="assets/affiche-lagune-alpes.jpeg"
+              href="assets/affiche_up.jpeg"
               target="_blank"
               rel="noopener"
             >
@@ -508,9 +509,9 @@ if (eventsSection) {
               <strong>Informations et billets</strong>
               <a
                 class="btn"
-                href="mailto:assivoirienschambery@gmail.com?subject=Billets%20-%20De%20la%20lagune%20aux%20Alpes"
+                href="https://www.helloasso.com/associations/association-des-etudiants-ivoiriens-de-chambery/evenements/de-la-lagune-aux-alpes"
               >
-                Contacter l’association ↗
+                J'achète mon billet ↗
               </a>
             </div>
           </div>
@@ -601,29 +602,29 @@ const boardMembers = [
     name: 'VANLY TOURÉ',
     role: 'Trésorier général',
     group: 'Finances',
-    mission: null
+    mission: null,
+    photo: 'assets/TOURÉ_Vanly.jpg'
   },
   {
     name: 'Joel KOUAKOU',
     role: 'Commissaire aux comptes',
     group: 'Finances',
-    mission: null
+    mission: null,
+    photo: 'assets/KOUAKOU_Joël.jpg'
   },
   {
     name: 'Serge-Olivier YAO',
     role: 'Secrétaire général',
     group: 'Secrétariat général',
     mission: null,
-    photo: 'assets/serge-olivier.jpg',
-    crop: [100, 5, 220, 300]
+    photo: 'assets/YAO_Serge-Olivier.png'
   },
   {
     name: 'Sullivan Pierre Aristide YAMONTCHE',
     role: 'Secrétaire général adjoint',
     group: 'Secrétariat général',
     mission: null,
-    photo: 'assets/yamontche.jpg',
-    crop: [130, 0, 180, 210]
+    photo: 'assets/YAMONTCHE_Aristide.jpg'
   },
   {
     name: 'SORO Foungnigué Serge',
@@ -649,13 +650,15 @@ const boardMembers = [
     name: 'Ivan AKE',
     role: 'Chargé des affaires sociales adjoint',
     group: 'Affaires sociales',
-    mission: null
+    mission: null,
+    photo: 'assets/AKE_Yvan.jpg'
   },
   {
     name: 'Iya TRAORE',
     role: 'Chargé de la communication',
     group: 'Communication',
-    mission: null
+    mission: null,
+    photo: 'assets/TRAORE_IYA.jpg'
   },
   {
     name: 'Jausette Kevine KOUAMÉ',
@@ -676,8 +679,7 @@ const boardMembers = [
     role: 'Chargé des partenariats et du développement stratégique adjoint',
     group: 'Partenariats et développement stratégique',
     mission: null,
-    photo: 'assets/emmanuel-mungagbeu.jpg',
-    crop: [130, 0, 150, 190]
+    photo: 'assets/MUNGAGBEU_ Emmanuel.jpg'
   },
   {
     name: 'Sadia BAKAYOKO',
@@ -690,7 +692,8 @@ const boardMembers = [
     name: 'Koffi Eliézer KOUAKOU',
     role: 'Co-responsable du bien-être et du mieux-vivre',
     group: 'Bien-être et mieux-vivre',
-    mission: null
+    mission: null,
+    photo: 'assets/KOUAKOU_Koffi.jpg'
   }
 ];
 
@@ -724,7 +727,7 @@ const initiativesData = [
   {
     title: 'Anticiper les démarches administratives',
     tag: 'Formation bénévole · Juriste',
-    date: 'Lien prévu fin novembre 2026',
+    date: 'Date à confirmer',
     image: 'assets/formation_benevoles_anticiper_demarches_administratives.png',
     summary:
       'Quelle stratégie adopter pour anticiper les procédures ' +
