@@ -637,7 +637,8 @@ const boardMembers = [
     name: 'Guy Fréjuste Koffi KONAN',
     role: 'Secrétaire à l’organisation adjoint',
     group: 'Organisation',
-    mission: null
+    mission: null,
+    photo: 'assets/GUY.jpeg'
   },
   {
     name: 'Emeline ANOUGBA',
