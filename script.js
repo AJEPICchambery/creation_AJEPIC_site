@@ -709,7 +709,7 @@ const initiativesData = [
     title: 'Des vêtements chauds pour l’hiver',
     tag: 'Solidarité',
     date: 'Collecte : du 10 au 25 novembre 2026',
-    image: 'assets/collecte-vetements-hiver_up.jpeg',
+    image: 'assets/info_collecte.jpeg',
     summary:
       'Collecte de vêtements d’hiver du 10 au 25 novembre 2026, ' +
       'avant la distribution prévue en décembre.',
